@@ -14,19 +14,16 @@ public static class Solver
         
         for (var i = 0; i < input.Length; i++)
         {
-            for (int j = 1; j < input.Length; j++)
+            for (var j = 1; j <= input.Length - i; j++)
             {
-                if (dic.ContainsKey(input.Substring(i, j)))
-                {
-                    nums.Add(dic[input.Substring(i, j)]);
-                    // input = input.Split(input.Substring(i, j))[1];
-                    break;
-                }
+                if (!dic.ContainsKey(input.Substring(i, j))) continue;
+                nums.Add(dic[input.Substring(i, j)]);
+                break;
             }
 
         }
 
-        var result = nums.First().ToString() + nums.Last();
+        var result = nums.FirstOrDefault().ToString() + nums.LastOrDefault();
         return int.Parse(result);
     }
 }
