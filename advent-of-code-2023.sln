@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code-2023", "adve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{F06D8139-039D-4BFF-A522-CBC8BE5E1ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1Part2", "Day1Part2\Day1Part2.csproj", "{ABCD4DA3-B2A2-46F3-A619-750621C04E9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,7 @@ Global
 		{F06D8139-039D-4BFF-A522-CBC8BE5E1ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F06D8139-039D-4BFF-A522-CBC8BE5E1ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06D8139-039D-4BFF-A522-CBC8BE5E1ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD4DA3-B2A2-46F3-A619-750621C04E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD4DA3-B2A2-46F3-A619-750621C04E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
